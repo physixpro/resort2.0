@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+
+.headers{
+    font-family: 'Tinos', serif;
+}
+
+.paragraphs{
+    font-family: 'Tinos', serif;
+    font-size: large;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+}

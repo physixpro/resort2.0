@@ -1,0 +1,15 @@
+div.MuiTabs-flexContainer{
+    position: fixed;
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+/* .PrivateTabIndicator-colorSecondary-4{
+    background-color: rgb(18, 18, 175);
+} */
+
+.PrivateTabIndicator-colorSecondary-4 {
+    background-color: white;
+    position: fixed;
+}

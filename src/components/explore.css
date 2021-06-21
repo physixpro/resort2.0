@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+.explore-container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+height: 93vh;
+grid-template-areas:
+"boxOne boxTwo sidebar"
+"boxThree boxFour sidebar";
+grid-gap: 35px;
+}
+
+#box-1{
+    background-color: none;
+    grid-area: boxOne;
+    /* border: 2px solid rgb(18, 49, 75);
+    border-radius: 10px; */
+    color:rgb(34, 31, 31);
+    font-size: 40px;
+    font-family: 'Gentium Book Basic', serif;
+    margin:auto;
+}
+#box-2{
+    background-color:none;
+    grid-area: boxTwo;
+    /* border: 2px solid rgb(18, 49, 75); */
+    border-radius: 10px;
+    /* height: 426px;
+    width: 640px; */
+    cursor: pointer;
+}
+
+#box-2-img{
+    border-radius: 10px;
+   
+}
+#box-3{
+    background-color: none;
+    grid-area:boxThree;
+    /* border: 2px solid rgb(18, 49, 75);
+    border-radius: 10px; */
+    color:rgb(34, 31, 31);
+    font-size: 40px;
+    font-family: 'Gentium Book Basic', serif;
+    margin:auto;
+}
+#box-4{
+    background-color: none;
+    grid-area: boxFour;
+    /* border: 2px solid rgb(18, 49, 75); */
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#box-4-img{
+    border-radius: 10px;
+}
+#box-5{
+    background-color: none;
+    grid-area: sidebar;
+    /* border: 2px solid rgb(18, 49, 75);
+    border-radius: 10px; */
+    cursor: pointer;
+    padding-right: 25px;
+}
+
+#box-5-img{
+    max-height: fit-content;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1024px){
+    #box-5{
+        display:none;
+    } 
+    #box-1{
+        display: none;
+    }
+    #box-3{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    #box-1{
+        display: none;
+    }
+    #box-3{
+        display: none;
+    }
+}
+
+.explore-heading{
+font-size: 25px;
+font-family: 'Tinos', serif;
+}
+
+.explore-paragraph{
+font-size: 25px;
+font-family: 'Tinos', serif;
+
+}
+
+.explore-button{
+background-color:rgb(60, 189, 206);
+color:white;
+width:150px;
+height: 50px;
+letter-spacing: 1.5px;
+font-weight: bolder;
+cursor: pointer;
+}

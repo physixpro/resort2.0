@@ -1,0 +1,33 @@
+.makeStyles-container-14{
+   justify-content: center;
+   gap: 25px;
+}
+
+#booking-button{
+   width:350px;
+   background-color:rgb(60, 189, 206);
+   color:white;
+   font-weight: bolder;
+cursor: pointer;
+}
+
+#booking-room{
+   width:350px;
+}
+
+.travel-warning{
+   color:red;
+   font-size: small;
+}
+
+#booking-header{
+   padding-top: 50px;
+}
+
+#booking-form{
+   padding-top: 50px;
+}
+
+#booking-warning{
+   padding-top: 40px;
+}

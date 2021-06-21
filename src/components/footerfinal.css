@@ -1,0 +1,44 @@
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15em;
+    padding-bottom:50px;
+}
+
+.section{
+  
+    padding-top: 50px;
+    font-size: 0.83em;
+    font-weight: bold;
+    text-align: left;
+    left: 80px;
+    position: relative;
+}
+
+a.flex-lists{
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 12px;
+    line-height: 30px;
+   padding-left: 180px;
+   border-bottom-width: 0;
+   border-top-width: 0;
+   border-right-width: 0;
+   position: relative;
+   color:black;
+}
+
+
+
+.email-box{
+    /* text-align: right; */
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+    right:100px;
+    padding-left: 100px;
+    border-bottom-width: 0;
+   border-top-width: 0;
+   border-right-width: 0;
+}
+
