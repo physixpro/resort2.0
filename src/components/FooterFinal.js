@@ -1,5 +1,6 @@
 import React from "react";
 import "./footerfinal.css";
+import { SocialIcon } from 'react-social-icons';
 
 const FooterFinal = () => {
   return (
@@ -27,6 +28,9 @@ const FooterFinal = () => {
       {/*Box three that is position at the right of the page */}
 <div className="email-box">
   Send us a message!
+  <div>
+           <SocialIcon  className="mail" url="https://www.email.com/"  />
+           </div>
 </div>
     </div>
   );

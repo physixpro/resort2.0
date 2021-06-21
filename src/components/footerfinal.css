@@ -16,7 +16,7 @@
     position: relative;
 }
 
-a.flex-lists{
+.flex-lists{
     display: flex;
     border: 1px solid rgb(0, 0, 0);
     font-size: 12px;
@@ -40,5 +40,10 @@ a.flex-lists{
     border-bottom-width: 0;
    border-top-width: 0;
    border-right-width: 0;
+   padding-bottom: 40px;
 }
 
+.mail{
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+}
