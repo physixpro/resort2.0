@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import FooterFinal from "./components/FooterFinal";
 import Cookie from "./components/Cookie";
 import CookieConsent, { Cookies } from "react-cookie-consent";
+import Social from "./components/Social";
 
 function App() {
  
@@ -46,6 +47,7 @@ function App() {
      <SimpleSlider/>
      <Footer />
     <FooterFinal />
+    <Social />
     </div>
   );
 }
