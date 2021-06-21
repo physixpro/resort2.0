@@ -1,16 +1,26 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
 import { SocialIcon } from 'react-social-icons';
+import "./social.css"
 
 
 
 const Social = () => {
     return (
-        <div>
-           <SocialIcon url="https://twitter.com/jaketrent" />
-           <SocialIcon url="https://facebook.com/jaketrent" />
-           <SocialIcon url="https://youtube.com/jaketrent" />
-           <SocialIcon url="https://instagram.com/jaketrent" />
+        <div className="icon-container">
+            <div>
+            <SocialIcon url="https://twitter.com" />
+            </div>
+           <div>
+           <SocialIcon url="https://facebook.com/Chaostheory299792458/" />
+           </div>
+           <div>
+           <SocialIcon url="https://youtube.com/" />
+           </div>
+           <div>
+           <SocialIcon url="https://instagram.com/" />
+           </div>
+          
            
         </div>
     )
