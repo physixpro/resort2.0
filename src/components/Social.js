@@ -10,6 +10,7 @@ const Social = () => {
            <SocialIcon url="https://twitter.com/jaketrent" />
            <SocialIcon url="https://facebook.com/jaketrent" />
            <SocialIcon url="https://youtube.com/jaketrent" />
+           <SocialIcon url="https://instagram.com/jaketrent" />
            
         </div>
     )
