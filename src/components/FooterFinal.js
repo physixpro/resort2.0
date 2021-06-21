@@ -11,7 +11,7 @@ const FooterFinal = () => {
       </div>
       
 {/* Box Two that is positioned at the center of the page */}
-      <a href="" className="flex-lists">
+      <a href="www.google.com" className="flex-lists">
         <ul >
           <li>ABOUT US</li>
           <li>DIRECTION</li>

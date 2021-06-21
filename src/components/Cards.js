@@ -47,7 +47,7 @@ const SimpleCard = () => {
       {showCardOne ? (
         <Card
           onMouseOver={() => setShowCardOne(false)}
-          setclassname={classes.root}
+          className={classes.root}
           variant="outlined"
         >
           <img
@@ -65,7 +65,7 @@ const SimpleCard = () => {
           className="blurredImages"
           id="firstImage"
           onMouseOut={() => setShowCardOne(true)}
-          className="blurredImageOne"
+          // className="blurredImageOne"
           src={imageOneBlurred}
           width="525"
           height="400"
@@ -129,29 +129,5 @@ const SimpleCard = () => {
   );
 };
 
-const Cards = () => {
-  const useStyles = makeStyles({
-    root: {
-      minWidth: 275,
-    },
-    bullet: {
-      display: "inline-block",
-      margin: "0 2px",
-      transform: "scale(0.8)",
-    },
-    title: {
-      fontSize: 14,
-    },
-    pos: {
-      marginBottom: 12,
-    },
-  });
 
-  return (
-    <div>
-      <SimpleCard />
-    </div>
-  );
-};
-
-export default Cards;
+export default SimpleCard;
