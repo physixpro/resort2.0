@@ -47,3 +47,14 @@
     margin-top: 20px;
     background-color: rgb(255, 255, 255);
 }
+
+
+@media only screen and (max-width: 959px) {
+    
+   
+    .footer-container{
+        width:50px;
+    }
+      
+    }
+  
