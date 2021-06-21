@@ -39,7 +39,7 @@ const SimpleCard = () => {
 
   const classes = useStyles();
   console.log();
-  const bull = <span className={classes.bullet}>•</span>;
+  // const bull = <span className={classes.bullet}>•</span>;
 
   return (
     <div className="card-container">
@@ -47,7 +47,7 @@ const SimpleCard = () => {
       {showCardOne ? (
         <Card
           onMouseOver={() => setShowCardOne(false)}
-          setclassName={classes.root}
+          setclassname={classes.root}
           variant="outlined"
         >
           <img

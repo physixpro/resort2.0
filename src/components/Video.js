@@ -1,5 +1,5 @@
 import React from 'react';
-import resort from '../videos/resort.mp4';
+// import resort from '../videos/resort.mp4';
 import resortOne from "../images/resortOne.jpg";
 
 import './video.css'

@@ -1,7 +1,7 @@
 import React from 'react';
 import "./socialmedia.css";
 
-const SocialMedia = () => {
+const Socialmedia = () => {
     return (
         <div   data-aos="fade-up"
         data-aos-duration="2000">
@@ -12,4 +12,4 @@ const SocialMedia = () => {
     )
 }
 
-export default SocialMedia
+export default Socialmedia
