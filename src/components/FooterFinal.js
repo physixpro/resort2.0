@@ -12,13 +12,13 @@ const FooterFinal = () => {
       
 {/* Box Two that is positioned at the center of the page */}
       <a href="" className="flex-lists">
-        <ul className="footer-list">
+        <ul >
           <li>ABOUT US</li>
           <li>DIRECTION</li>
           <li>CONTACT</li>
           <li>LOVE LOCALS</li>
         </ul>
-        <ul className="footer-list">
+        <ul >
           <li >NEWS AND AWARDS</li>
           <li>CAREERS</li>
           <li>GIFT CARDS</li>

@@ -11,7 +11,7 @@ import SimpleSlider from "./components/SimpleSlider";
 import Footer from "./components/Footer";
 import FooterFinal from "./components/FooterFinal";
 import Cookie from "./components/Cookie";
-import CookieConsent, { Cookies } from "react-cookie-consent";
+import CookieConsent from "react-cookie-consent";
 import Social from "./components/Social";
 
 
