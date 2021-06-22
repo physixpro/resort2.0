@@ -106,7 +106,7 @@ const SimpleCard = () => {
           className={classes.root}
           variant="outlined"
         >
-          <img
+          <img 
             data-aos="fade-up"
             data-aos-duration="2000"
             src="https://sharp-wescoff-20e282.netlify.app/static/media/aThree.005f5082.jpg"
@@ -117,7 +117,8 @@ const SimpleCard = () => {
         </Card>
       ) : (
         <img
-          className="blurredImages"
+        className="hvr-grow"
+          // className="blurredImages"
           onMouseOut={() => setShowCardThree(true)}
           src={imageThreeBlurred}
           width="525"
