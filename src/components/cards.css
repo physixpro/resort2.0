@@ -66,6 +66,7 @@ div.MuiPaper-outlined{
     -moz-osx-font-smoothing: grayscale;
     transition-duration: 0.3s;
     transition-property: transform;
+    cursor: pointer;
     
 }
 
