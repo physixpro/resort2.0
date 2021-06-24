@@ -32,3 +32,16 @@ cursor: pointer;
 #booking-warning{
    padding-top: 40px;
 }
+
+@media only screen and (max-width: 320px) {
+   #booking-form{
+    padding-top: 100px; 
+     width: 150px;
+    position: relative;
+    left:80px;
+   }
+#booking-room{
+   width: 142px;
+}
+ }
+ 

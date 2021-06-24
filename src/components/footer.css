@@ -3,3 +3,11 @@
     padding-left: 360px;
     padding-top: 100px;
 }
+
+@media only screen and (max-width: 320px) {
+   .logo{
+     position: relative;
+     right: 290px;
+     padding-bottom: 20px;
+   }
+    }

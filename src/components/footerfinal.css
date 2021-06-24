@@ -78,3 +78,21 @@ a.lists{
       
     }
   
+    @media only screen and (max-width: 320px) {
+       .footer-list{
+           width: 50px;
+       }
+
+       .email{
+        display: none;
+       }
+      .mail{
+          display: none;
+      }
+      .lists{
+      border-right-width:0;
+      border-left-width:0;
+    }
+      }
+
+      
