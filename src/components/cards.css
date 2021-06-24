@@ -102,6 +102,10 @@ div.MuiPaper-outlined{
   height: 200px;
  }
 
+ #third-image{
+  width:250px;
+  height: 200px;
+ }
  .card-container{
    position: relative;
    justify-content: center;

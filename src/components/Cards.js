@@ -121,6 +121,7 @@ const SimpleCard = () => {
       ) : (
         <img
         className="hvr-grow"
+        id="third-image"
           // className="blurredImages"
           onMouseOut={() => setShowCardThree(true)}
           src={imageThreeBlurred}
