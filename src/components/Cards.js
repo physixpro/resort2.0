@@ -81,6 +81,7 @@ const SimpleCard = () => {
         >
           <img
             data-aos="fade-up"
+            id="second-image-clear"
             data-aos-duration="2000"
             src="https://sharp-wescoff-20e282.netlify.app/static/media/aTwo.4fad255a.jpg"
             alt=""
