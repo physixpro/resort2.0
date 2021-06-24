@@ -76,3 +76,10 @@ div.MuiPaper-outlined{
     transform: scale(1.1);
     border-radius: 1.1%;
 }
+
+@media only screen and (max-width: 320px) {
+  #first-image-clear{
+    width:250px;
+    height: 200px;
+  }
+}
