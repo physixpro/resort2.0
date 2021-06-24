@@ -112,5 +112,11 @@ div.MuiPaper-outlined{
    padding:0px;
    row-gap: 0px;
    overflow-x: hidden;
+   display: grid;
+  padding: 0px;
+  grid-template-columns: 1fr;
+ 
+  justify-items: center;
+  margin-top: 100px;
  }
 }
