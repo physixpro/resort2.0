@@ -11,3 +11,11 @@
      padding-bottom: 20px;
    }
     }
+
+    @media only screen and (max-width: 375px) {
+      .logo{
+        position: relative;
+        right: 120px;
+        
+      }
+       }
