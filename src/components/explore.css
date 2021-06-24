@@ -112,3 +112,28 @@ letter-spacing: 1.5px;
 font-weight: bolder;
 cursor: pointer;
 }
+
+@media only screen and (max-width: 320px) {
+
+
+    .explore-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 13vh;
+        grid-template-areas:
+        "boxOne boxTwo sidebar"
+        "boxThree boxFour sidebar";
+        grid-gap: 35px;
+        }
+        
+    #box-4-img{
+        width:300px;
+        position: relative;
+        right:24px;
+    }
+    #box-2-img{
+        width:300px;
+        position: relative;
+        right:24px;
+    }
+      }

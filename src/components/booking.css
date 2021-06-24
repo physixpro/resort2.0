@@ -35,7 +35,7 @@ cursor: pointer;
 
 @media only screen and (max-width: 320px) {
    #booking-form{
-    padding-top: 100px; 
+    padding-top: 400px; 
      width: 150px;
     position: relative;
     left:80px;

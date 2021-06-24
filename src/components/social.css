@@ -8,8 +8,7 @@
 }
 
 @media only screen and (max-width: 320px) {
-   .icon-container{
-      
+   .icon-container{     
        grid-gap: 10px;
    }
      }
