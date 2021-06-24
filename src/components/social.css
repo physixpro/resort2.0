@@ -12,3 +12,12 @@
        grid-gap: 10px;
    }
      }
+
+     @media only screen and (max-width: 375px) {
+        .icon-container{     
+            grid-gap: 40px;
+            display:flex;
+           position: relative;
+           left:140px;
+        }
+          }
