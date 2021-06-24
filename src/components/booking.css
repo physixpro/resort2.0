@@ -44,4 +44,16 @@ cursor: pointer;
    width: 142px;
 }
  }
+
+ @media only screen and (max-width: 375px) {
+   #booking-form{
+    padding-top: 100px; 
+     width: 150px;
+    position: relative;
+    left:250px;
+   }
+#booking-room{
+   width: 142px;
+}
+ }
  
